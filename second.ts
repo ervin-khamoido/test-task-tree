@@ -10,7 +10,7 @@ const kTreeObj = JSON.parse(JSON.stringify(kTreeData));
 function kTreeDepth(root: kTree): number {
    const arrDepth: Array<number> = [];
 
-   function maxDepthHandler(root: kTree, num: number): any {
+   function maxDepthHandler(root: kTree, num: number): number {
       if (root === undefined) {
          return 0;
       }
@@ -25,6 +25,8 @@ function kTreeDepth(root: kTree): number {
          })
          
          return Math.max(...arrDepth) + 1
+      } else {
+         return num
       }
    };
 
