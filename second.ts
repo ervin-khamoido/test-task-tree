@@ -1,4 +1,4 @@
-const kTreeData = require("./kTree.json");
+const kTreeData = require("./second.json");
 
 interface kTree<T=any> {
    children?: kTree[];

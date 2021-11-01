@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "bi-tree": "npx ts-node index.ts",
-    "k-tree": "npx ts-node second.ts"
+    "first": "npx ts-node first.ts",
+    "second": "npx ts-node second.ts"
   },
   "keywords": [],
   "author": "",

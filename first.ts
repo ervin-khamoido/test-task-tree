@@ -1,4 +1,4 @@
-const BiTree = require("./tree.json");
+const BiTree = require("./first.json");
 
 interface TreeNode<T=any> {
    left?: TreeNode;
