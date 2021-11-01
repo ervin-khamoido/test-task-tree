@@ -7,7 +7,7 @@ interface kTree<T=any> {
 
 const kTreeObj = JSON.parse(JSON.stringify(kTreeData));
 
-function kTreeDepth(root: kTree) {
+function kTreeDepth(root: kTree): number {
    const arrDepth: Array<number> = [];
 
    function maxDepthHandler(root: kTree, num: number): any {
