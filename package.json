@@ -1,0 +1,19 @@
+{
+  "name": "test-binary-tree",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "bi-tree": "npx ts-node index.ts",
+    "k-tree": "npx ts-node second.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6"
+  }
+}

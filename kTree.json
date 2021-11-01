@@ -1,0 +1,61 @@
+{
+   "value": 1,
+   "children": [
+      {
+         "value": 2,
+         "children": [
+            {
+               "value": 5
+            }
+         ]
+      },
+      {
+         "value": 3
+      },
+      {
+         "value": 4,
+         "children": [
+            {
+               "value": 8,
+               "children": [
+                  {
+                     "value": 12
+                  }
+               ]
+            },
+            {
+               "value": 9,
+               "children": [
+                  {
+                     "value": 13,
+                     "children": [
+                        {
+                           "value": 14
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "value": 10,
+               "children": [
+                  {
+                     "value": 15
+                  },
+                  {
+                     "value": 16
+                  }
+               ]
+            },
+            {
+               "value": 11,
+               "children": [
+                  {
+                     "value": 17
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
